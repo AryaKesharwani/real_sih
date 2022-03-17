@@ -1,0 +1,98 @@
+<!-- nav -->
+<section>
+  <nav class="mt-7">
+    <div class="max-w-8xl mx-10 px-4">
+      <div class="flex justify-between b">
+        <div class="flex place-content-start space-x-7">
+          <div class="">
+            <a class="flex mr-[10rem] py-5 left-5" href="/">
+              <img
+                src="https://img.icons8.com/ios-glyphs/30/000000/cloud.png"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="hidden md:flex font-regular font-mono text-lg items-center space-x-3"
+        >
+          <a href="/about" class="py-4 px-2 text-black hover:text-teal-800">
+            About
+          </a>
+          <a
+            href="/backend"
+            class="py-4 px-2 text-black hover:text-teal-800 transition duration-300"
+          >
+            Backend
+          </a>
+          <a
+            href="/info"
+            class="py-4 px-2 text-black hover:text-teal-800 transition duration-300"
+          >
+            INSAT 3D-R
+          </a>
+          <a
+            href="/team"
+            class="py-4 px-2 text-black hover:text-teal-800 transition duration-300"
+          >
+            Team
+          </a>
+        </div>
+
+        <div class="md:hidden flex items-center">
+          <button class="outline-none mobile-menu-button">
+            <svg
+              className=" w-6 h-6 text-black hover:text-teal-800 "
+              x-show="!showMenu"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden mobile-menu">
+      <ul>
+        <li class="active">
+          <a
+            href="index"
+            class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="#services"
+            class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
+          >
+            Services
+          </a>
+        </li>
+        <li>
+          <a
+            href="#about"
+            class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            href="#contact"
+            class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
+          >
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</section>

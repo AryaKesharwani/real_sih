@@ -1,6 +1,6 @@
 const express = require("express");
 const renderController = require("./controllers/renderController");
-
+const fileUpload = require("express-fileupload");
 const app = express();
 // setting ejs as templating engine
 app.set("view engine", "ejs");
