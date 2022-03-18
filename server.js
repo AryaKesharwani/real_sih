@@ -16,7 +16,7 @@ app.get("/info", renderController.info);
 app.get("/about", renderController.about);
 app.get("/backend", renderController.backend);
 
-app.post("/api/sendData", dataController.main);
+app.post("/api/sendData", dataController.main2);
 
 const PORT = config.PORT || 3000;
 
